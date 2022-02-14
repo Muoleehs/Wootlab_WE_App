@@ -1,0 +1,2065 @@
+<androidx.drawerlayout.widget.DrawerLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_drawer"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:openDrawer="start">
+	<androidx.coordinatorlayout.widget.CoordinatorLayout
+		android:id="@+id/_coordinator"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<com.google.android.material.appbar.AppBarLayout
+			android:id="@+id/_app_bar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:theme="@style/AppTheme.AppBarOverlay">
+			<androidx.appcompat.widget.Toolbar
+				android:id="@+id/_toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:background="?attr/colorPrimary"
+				app:popupTheme="@style/AppTheme.PopupOverlay" />
+		</com.google.android.material.appbar.AppBarLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			app:layout_behavior="@string/appbar_scrolling_view_behavior">
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="#FFFFFF"
+				android:orientation="horizontal"
+				android:layout_weight="1">
+				<LinearLayout
+					android:id="@+id/linear_home"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#FAFAFA"
+					android:orientation="vertical">
+					<ScrollView
+						android:id="@+id/vscroll1"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+						<LinearLayout
+							android:id="@+id/linear8"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:background="#FFFFFF"
+							android:orientation="vertical">
+							<TextView
+								android:id="@+id/textview1"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal"
+								android:text="Waste and Environmental Protection Agencies in Nigeria"
+								android:textSize="20sp"
+								android:textStyle="bold"
+								android:textColor="#4CAF50" />
+							<LinearLayout
+								android:id="@+id/linear2"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear3"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview4"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Abia State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear4"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview2"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Abia State Environmental Protection Agency (ASEPA)"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview3"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="0803 725 9878"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear9"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear10"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview10"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Adamawa State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear11"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview11"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Adamawa State Ministry of Environment"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview12"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+23475624853,624468"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear12"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear13"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview14"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Akwa Ibom State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear14"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview15"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Akwa Ibom State Environmental Protection and Waste Management Agency"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview16"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+2347014466111"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear15"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear16"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview18"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Anambra State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear17"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview19"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Anambra State Waste Management Authority-ASWAMA"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview20"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="aswamaawka2019\@gmail.com"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear18"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear19"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview22"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Bauchi State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear20"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview23"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Bauchi State Environmental Protection Agency\n (BASEPA)"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview165"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+234 77 542721"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview24"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="basepa.gov.ng"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear21"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear22"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview26"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Bayelsa State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear23"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview27"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Bayelsa State Environmental Sanitation Authority"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview28"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="bsesa2016\@gmail.com"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview29"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="besa.org.ng"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear24"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear25"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview30"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Benue State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear26"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview31"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Benue State Environmental Protection Agency"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview32"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+234 44-532659"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear27"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear28"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview34"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Borno State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear29"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview35"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Borno State Ministry of Environment"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview36"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+234 76 231086, 23285"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear30"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear31"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview38"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Cross River State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear32"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview39"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Calabar Urban Development Authority"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview40"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="08037208605"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear33"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear34"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview42"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Delta State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear35"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview43"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Delta State Ministry of Environment"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview44"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+234 56 281997, 281996"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview164"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="environment\@deltastate.gov.ng"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear36"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear37"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview46"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Ebonyi State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear38"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview47"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Ebonyi State Ministry of Environment"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview48"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="0706 698 0469"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear39"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear40"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview50"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Edo State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear41"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview51"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Edo State Ministry of Environment"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview52"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="0807 241 0565"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear45"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear46"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview58"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Ekiti State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear47"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview59"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Ekiti State Waste Management Board"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview60"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="http://www.ekswama.com/"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview61"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="0903 000 9385"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear48"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear49"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview62"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Enugu State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear50"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview63"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Enugu State Waste Management Authority - eswama"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview64"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="0803 732 6662"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear51"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear52"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview66"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Gombe State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear53"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview67"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Gombe State Environmental Sanitation and Protection Agency"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview68"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+2347066156655"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview69"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Gosepagombe\@mail.com"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear54"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear55"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear70"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview71"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Imo State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear71"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview72"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Imo State Waste Management Agency - ISWAMA"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview73"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="0906 492 2832"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview74"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="iswama.com.ng"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear56"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear72"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview75"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Jigawa State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear73"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview76"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Jigawa State Ministry of Environment"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview77"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="+234 (0) 802650842"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview163"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Jigawa State Environmental Protection Agency"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview78"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="jisepa\@jigawastate.gov.ng"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear57"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear74"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview79"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kaduna State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear75"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview80"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kaduna State Waste and Sanitation Project"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview81"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="+234 62 211432"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview82"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="KEPA Katsina State Environmental Protection Agency"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview162"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="0802 798 8388"
+											android:textSize="14sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear58"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear76"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview83"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kano State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear77"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview84"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kano State Rural Water Supply &amp; Sanitation Agency (RUWASA)"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview85"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="remasab\@yahoo.co.uk"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview86"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="+234 64 639600"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear59"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear78"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview87"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Katsina State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear79"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview88"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Katsina State Rural Water Supply &amp; Sanitation Agency"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview89"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="+234 65 431688"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear60"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear80"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview91"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kebbi State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear81"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview92"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kebbi State Ministry of Environment and Solid Minerals"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview93"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="mesm\@kebbistate.gov.ng"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear61"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear82"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview95"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kogi State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear83"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview96"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kogi State Ministry of Environment and Physical Planning"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview97"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="+234 58 220081"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear62"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear84"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview99"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kwara State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear85"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview100"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Kwara State Environmental Protection Agency"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview101"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="+234 31 223219"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview102"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="080 33378114"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear63"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear86"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview103"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Lagos State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear87"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview104"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Lagos State Waste Management Authority (LAWMA)"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview105"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="07080601020  "
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview106"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="08034242660"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear64"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear88"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview107"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Nasarawa State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear89"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview108"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Nasarawa State Waste Management Bureau"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview109"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="https://web.facebook.com/Nasarawa-State-Waste-Management-Bureau-1996406110575794/"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear65"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear90"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview111"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Niger State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear91"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview112"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="NISEPA/Niger State Environmental Protection Agency"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview113"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="0805 800 1809"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear66"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear92"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview115"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Ogun State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear93"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview116"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Ogun State Waste Management Authority"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview117"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="ogwama\@ogunstate.gov.ng"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview118"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="+2349010480056\n+2347068580233"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview161"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Ogun State Environmental Protection Agency"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview160"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="+234 39774101\n08033223178\n07084355960"
+											android:textSize="14sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear67"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear94"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview119"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Ondo State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear95"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview120"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Ondo State Ministry of Environment\nOndo State Waste Management Authority"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview121"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="odmenvironment\@gmail.com"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview122"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="08033502795"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear68"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear96"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview123"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Osun State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear97"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview124"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Osun State Ministry of Environment"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview125"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="08036167153"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview126"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="08062157007"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear69"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<LinearLayout
+										android:id="@+id/linear98"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:orientation="horizontal">
+										<TextView
+											android:id="@+id/textview127"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Oyo State"
+											android:textSize="18sp"
+											android:textStyle="bold"
+											android:textColor="#4CAF50" />
+									</LinearLayout>
+									<LinearLayout
+										android:id="@+id/linear99"
+										android:layout_width="match_parent"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:orientation="vertical">
+										<TextView
+											android:id="@+id/textview128"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="Oyo State Ministry of Environment"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+										<TextView
+											android:id="@+id/textview129"
+											android:layout_width="wrap_content"
+											android:layout_height="wrap_content"
+											android:padding="8dp"
+											android:text="oyostate.gov.ng/ministry-of-environment-and-water-resources"
+											android:textSize="16sp"
+											android:textStyle="bold"
+											android:textColor="#FFAB91" />
+									</LinearLayout>
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear100"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear101"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview131"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Plateau State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear102"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview132"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Plateau State Environmental Protection + Sanitation Agency"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview133"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="0803714397"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear103"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear104"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview135"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Rivers State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear105"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview136"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Rivers State Ministry of Environment"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview137"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="0803 552 1511"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview138"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="environment.riversstate.gov.ng"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear106"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear107"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview139"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Sokoto State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear108"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview140"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Sokoto State Ministry of Environment"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview141"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="https://web.facebook.com/people/Sokoto-State-Ministry-of-Environment/100063661212214/\?_rdc=1&amp;_rdr"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear109"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear110"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview143"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Taraba State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear111"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview144"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Taraba State Environmental Protection Agency"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview145"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+23476224037"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview159"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="08075716948"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview146"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="08027983273"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear112"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear113"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview147"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Yobe State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear114"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview148"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Yobe State Environmental Protection Agency Damaturu"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview149"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="yosepa1390\@gmail.com"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview150"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="08036554187, 35222626, 44994933"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear115"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear116"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview151"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Zamfara State"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear117"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview152"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Zamfara State Ministry of Environment, Mines &amp; Solid Minerals Development"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview153"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="zamfaraministryofenvironment\@gmail.com"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear118"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:orientation="vertical">
+								<LinearLayout
+									android:id="@+id/linear119"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:orientation="horizontal">
+									<TextView
+										android:id="@+id/textview155"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="F.C.T"
+										android:textSize="18sp"
+										android:textStyle="bold"
+										android:textColor="#4CAF50" />
+								</LinearLayout>
+								<LinearLayout
+									android:id="@+id/linear120"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:orientation="vertical">
+									<TextView
+										android:id="@+id/textview156"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="Abuja Environmental Protection Board AEPB"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview158"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+234 905 291 2625"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+									<TextView
+										android:id="@+id/textview157"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:padding="8dp"
+										android:text="+234 815 675 4018"
+										android:textSize="16sp"
+										android:textStyle="bold"
+										android:textColor="#FFAB91" />
+								</LinearLayout>
+							</LinearLayout>
+						</LinearLayout>
+					</ScrollView>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear_news"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#FFFFFF"
+					android:orientation="vertical">
+					<ListView
+						android:id="@+id/listview1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:background="#FFFFFF"
+						android:dividerHeight="0dp"
+						android:divider="@null"
+						android:choiceMode="none"
+						android:layout_weight="1" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear_reportinc"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#FFFFFF"
+					android:orientation="vertical">
+					<ListView
+						android:id="@+id/listview4"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:choiceMode="none" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/btm"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#FFFFFF"
+				android:orientation="horizontal" />
+		</LinearLayout>
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+	<LinearLayout
+		android:id="@+id/_nav_view"
+		android:layout_width="320dp"
+		android:layout_height="match_parent"
+		android:layout_gravity="start"
+		android:background="#EEEEEE">
+		<include layout="@layout/_drawer_mainpage" />
+	</LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
